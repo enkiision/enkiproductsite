@@ -3,14 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Registration</title>
+    <title>Registration</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <header class="container">
-        <h1>Enki's Closet User Login</h1>
+        <h1>Enki's Closet User Registration</h1>
         <ul class="nav">
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="index.html">Home</a>
@@ -24,8 +24,49 @@
           <li class="nav-item">
             <a class="nav-link" href="cart.html">Cart</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="userregistrationpage.html">Register</a>
+          </li>
         </ul>
       </header>
+      <h1>Enki's Closet!</h1>
+      <main class="container mt-4">
+          <div class="card p-4 bg-body-tertiary" style="width: 30rm">
+              <form>
+                <div class="mb-3">
+                    <label class="form-label" for="email" >Email</label>
+                    <input id="username" class="form-control" type="text" required />
+                </div>
+                  <div class="mb-3">
+                      <label class="form-label" for="username" >Username</label>
+                      <input id="username" class="form-control" type="text" required />
+                  </div>
+  
+                  <div class="mb-3">
+                      <label class="form-label" for="password">Password</label>
+                      <input id="password" class="form-control" type="password" required pattern="(@+$%^&*)">
+                  </div>
+                  <div class="mb-3">
+                    <label class="form-label" for="password"> Re-enter Password</label>
+                    <input id="password" class="form-control" type="password" required pattern="(@+$%^&*)">
+                    </div>
+                 <p>
+                      <button >Submit</button>
+                 </p>
+              </form>
+              <form>
+                <div style="padding: 20px>
+                    <label class="form-control" for="How did you hear about us?" style="border-radius: 10px; border-color: black;"  ">How did you hear about us?</label>
+                    <div></div>
+                    <input type="checkbox" name="Social Media" id="checkbox"> Social Media <span>
+                    <input type="checkbox" name="Social Media" id="checkbox"> Social Media</span>
+                    <input type="checkbox" name="Word of Mouth" id="checkbox"> Word of Mouth
+                </div>
+              </form>
+      </main>
+        <p>
+            <button a class="nav-link" href="userlogin.html" href="userlogin.html" >Already a member? Sign in here</button>
+        </p>
       <footer>&copy; Enki Vision</footer>
 </body>
 </html>

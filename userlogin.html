@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>User Login</title>
+    <title>Login</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/custom.css">
     <link rel="stylesheet" href="css/header.css">
@@ -24,6 +24,9 @@
           <li class="nav-item">
             <a class="nav-link" href="cart.html">Cart</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="userregistrationpage.html">Register</a>
+          </li>
         </ul>
     </header>
     <h1>Enki's Closet!</h1>
@@ -34,11 +37,17 @@
                     <label class="form-label" for="username" >Username</label>
                     <input id="username" class="form-control" type="text" required />
                 </div>
-
                 <div class="mb-3">
                     <label class="form-label" for="password">Password</label>
-                    <input id="password" class="form-control" type="password" required pattern="(@+$%^&*)">
+                    <input id="password" class="form-control" type="password" required pattern="(1234)">
                 </div>
+                <p>
+                    <button >Submit</button>
+                    <button a href="userregistrationpage.html" not aria-required="false" >Click here to register</button>
+                    <div style="padding: 20px>
+                    <label class="form-control for="How did you hear about us?" style="border-radius: 10px; border-color: black;">Remember Me</label>
+                    <div></div>
+                    <input type="checkbox" name="Remember me checkbox" id="checkbox">
             </form>
     </main>
 </body>
