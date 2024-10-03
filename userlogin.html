@@ -4,8 +4,42 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>User Login</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
-    
+    <header class="container">
+        <h1>Welcome to Enki's Closet!</h1>
+        <ul class="nav">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="productpage.html">Products</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="userlogin.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="cart.html">Cart</a>
+          </li>
+        </ul>
+    </header>
+    <h1>Enki's Closet!</h1>
+    <main class="container mt-4">
+        <div class="card p-4 bg-body-tertiary" style="width: 30rm">
+            <form>
+                <div class="mb-3">
+                    <label class="form-label" for="username" >Username</label>
+                    <input id="username" class="form-control" type="text" required />
+                </div>
+
+                <div class="mb-3">
+                    <label class="form-label" for="password">Password</label>
+                    <input id="password" class="form-control" type="password" required pattern="(@+$%^&*)">
+                </div>
+            </form>
+    </main>
 </body>
 </html>

@@ -1,5 +1,9 @@
 header {
-    background-color: rgb(107, 36, 174); 
-    border-color: black;
-  }
+  background-color: rgb(107, 36, 174); 
+  border-color: black ;
+  border-radius: 40px ;
+}
+/* li span {
+  background: gold;
+} 
   

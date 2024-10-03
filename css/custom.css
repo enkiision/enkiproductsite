@@ -1,7 +1,16 @@
 body {
-  background-color: rgba(28, 89, 203, 0.827);
+  background-color: rgba(28, 89, 203, 0.699);
+  font-family: var(--bs-font-monospace);
+  font-size: 1pm ;
+  margin: 1cm;
 }
+h1 {font-size: 50px ; }
+h2 {font-size: 30px ;}
 header {
   background-color: rgb(107, 36, 174); 
-  border-color: black;
+  border-color: black ;
+  border-radius: 40px ;
 }
+/* li span {
+  background: gold;
+} 
