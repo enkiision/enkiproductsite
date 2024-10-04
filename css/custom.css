@@ -1,12 +1,17 @@
 body {
-  background-color: rgba(28, 89, 203, 0.699);
+  background-color: rgba(21, 71, 164, 0.699);
   font-family: var(--bs-font-monospace);
   font-size: 1pm ;
+  font-size-adjust: inherit;
   margin: 1cm;
 }
-h1 {font-size: 50px ; }
+h1 {font-size: 50px ; text-align: center;
+ }
 h2 {font-size: 30px ;}
 header {
+  div {
+    text-align: center;
+    }
   background-color: rgb(107, 36, 174); 
   border-color: black ;
   border-radius: 40px ;
